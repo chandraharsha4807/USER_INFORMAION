@@ -1,0 +1,83 @@
+.App-Wrapper {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  height: 100%;
+  overflow: auto;
+}
+
+.users-container{
+  
+}
+
+li {
+  background: linear-gradient(to right, #ff6b6b, #3b5998);
+  background-color: aqua;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  min-width: 300px;
+  max-width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+li:hover {
+  background: linear-gradient(to right, #ff0000, #003366);
+  transform: translateX(8px);
+}
+
+.login-container{
+}
+
+.login-container form{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+
+
+ input {
+   width: 100%;
+   padding: 10px;
+   margin: 10px 0;
+   box-sizing: border-box;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   outline: none;
+   transition: border-color 0.3s ease-in-out;
+ }
+
+ input:focus {
+   border-color: #033185;
+   /* Change the color on focus */
+ }
+
+ input:hover {
+   border-color: #456bb1;
+   /* Change the color on hover */
+ }
+
+
+ button {
+   width: 100%;
+   padding: 10px;
+   background-color: #456bb1;
+   color: #fff;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: background-color 0.3s ease-in-out;
+ }
+
+ button:hover {
+   background-color: #033185;
+   /* Change the color on hover */
+ }
+ label{
+  text-align: left;
+ }
+}
