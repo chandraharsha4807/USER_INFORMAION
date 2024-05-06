@@ -4,7 +4,7 @@ import * as requests from "./userRequest";
 async function getUsers() {
   try {
     const response = await axios.post(
-      "http://localhost:5000/graphql",
+      "https://nodeservices.netlify.app/api/graphql/users",
       {
         query: requests.GET_ALL_USERS(),
       },

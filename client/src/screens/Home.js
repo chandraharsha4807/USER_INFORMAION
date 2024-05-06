@@ -1,10 +1,11 @@
+import { UsersDashboard } from "../components/UsersDashboard";
 
 function Home() {
-    return (
-      <div>
-        Hellow world
-      </div>
-    );
+  return (
+    <>
+      <UsersDashboard />
+    </>
+  );
 }
 
-export default Home
+export default Home;
